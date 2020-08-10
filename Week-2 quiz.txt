@@ -1,0 +1,88 @@
+Intorduction to Data Analytics for Business:
+
+Week-2 Quiz
+1. What type of file normally stores two dimensional data with column and row breaks, 
+identified using special characters?
+Answer - Delimited Text File
+
+
+2. What term best describes data storage that is optimized for handling front-end business 
+operations?
+Answer - OLTP
+
+
+3. Suppose you are a software developer looking for an online environment to help you rapidly 
+build and scale applications. Which of the following services would best accommodate your 
+needs?
+Answer - PaaS
+
+
+4. Which of the following statements about Cloud computing are true? (select all that apply)
+Answer - CC can allow cheaper and more scalable operations.
+		CC speaks to where data is stored or manipulated.
+
+
+5. Suppose your objective is to build a predictive model that can be used to recommend 
+products to customers in real-time based on their navigation on your web site. Which of these 
+technologies would be most critical in helping you achieve this objective?
+Answer - In-Database Analytics
+
+
+6. Suppose you are a data analyst working on a project to show why sales in a particular
+region are down relative to other regions. Your job is to figure out what's going on, find a 
+good way to show the data, and produce a report that can be automated to go out weekly to 
+track progress on any actions that are taken. You anticipate that only descriptive analytics 
+will be needed for this project, and you're working from a data set that has been prepared by 
+your partners in IT.
+Answer - Standard Reporting
+		Data Visualization and Exploration
+
+
+
+7. Suppose you're a data analyst and you're traveling to a conference. There's a straightforward but critical ad-hoc analysis you need to accomplish, but you're not certain how much internet connectivity you'll have during your trip. You also haven't decided which of your desktop tools you'll use in the analysis.
+
+Answer - Intermediate File Approach
+
+
+8. For the following 9 questions, consider the set of relational database tables below, illustrated using the shorthand we introduced in the module.
+
+For simplicity, assume that a phone number is a permanent attribute of the subscriber and that subscribers on both the "to" and "from" sides of calls are included in the database.
+
+What kind of key best describes the primary key of the PLANS table ?
+
+Answer - Surrogate
+
+9. Which table, if any, has a Composite Primary Key?
+Answer - CALLS
+
+
+10. Select all the fields which COULD have foreign key relationships in THIS model:
+
+Answer - Device_SN, Phone_Number, From_Number, Plan_ID, To_Number
+
+
+11. In the next 6 questions, define the relationship between the tables.
+
+Refer to the following video for a refresher: video 4.
+
+Answer - one to one
+
+
+
+12. CALLS to SUBSCRIBERS
+Answer - Many to one
+
+13. DEVICES to SUBSCRIBERS
+Answer - one to one
+
+14. CALLS to DEVICES
+Answer - No direct relationship
+
+15. PLANS to CALLS
+Answer - No direct relationship
+
+16. DEVICES TO PLANS
+Answer - No direct relationship
+
+17. Is this data model in third normal form?
+Answer - NO
